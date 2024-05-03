@@ -1,0 +1,83 @@
+24 + 48
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+56,4,67,17,42,11,12,48,38,4,69,84,52,73,76,25,11,20,42,13,28,36,12,92,89,2,66,51,54,2,41,5,99,19,0,19,70,2,99,38,69,22,2,78,21,17,99,71,68,75,55,4,89,27,10,33,90,72,51,98,28,2,88,61,18,83,8,5 * 76
+const isEven = num => num % 2 === 0;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const reverseString = str => str.split("").reverse().join("");
+true / 40,90,60
+
+const randomNumber = getRandomNumber();
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+33,10,90,91,49,12,68,44,88,36,84,34,5,49,56,53,16,20,81,6,62,35,12,66,10,46,9,43,87,85,52,82,35,20,4,80,17,18,64,92,10,84,1,93,55,49,16,16,4,62,65,81,42,26,45,77,22,65,12,62,67,23,49,23,52,91,17,76,21,3,71,8,91,76,88,97,27,91,83,66,59,59,96,25,27,35,68,13,3,39,90,90,40,82 * 82,10,47,53,62,63,1,25,25,5,98,39,15,17,50,36,98,19,34,0,19,10,49,99,61,49,90,97,81,58,36,89,92,53,38,7,71,47,65,20
+const multiply = (a, b) => a * b;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+true + orange
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+47 + apple
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+class MyClass { constructor() { this.property = getRandomString(); } }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findLargestNumber = numbers => Math.max(...numbers);
+true * 
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const removeDuplicates = array => Array.from(new Set(array));
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana + 53
+function addNumbers(a, b) { return a + b; }
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+false - 53,50,96,41,37,64,85,94,21,53,64,26,96,93,83,26,43,76,15,59,12,22,72,91,96,79,59,90,52,47,24,81,93,73,9,68,67,42,45,82,12,99,87,25,45,86,38,50,50,47,30,75,1,56,87,30,11,95,62,56,64,21,18,23,74,50,44,88,39,49,74,44,11,77,12,90
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape * false
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+10 / 69
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+3 - 83
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const sum = (a, b) => a + b;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+apple / orange
+const squareRoot = num => Math.sqrt(num);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false + 51
+function addNumbers(a, b) { return a + b; }
+16 / 57
+// This is a comment
+57 - 46
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+console.log(getRandomString());
+true - 5
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+61 / 91
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
